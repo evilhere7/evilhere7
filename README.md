@@ -2,7 +2,7 @@
 <h3 align="center">🚀 Software Developer from Nepal 🇳🇵</h3>
 
 <p align="center">
-  <img src="./profile.png" width="180" style="border-radius:50%;" alt="ROSH4N Avatar"/>
+  <img src="./https://i.ibb.co/6cKQNDF4/channels4-profile.jpg" width="180" style="border-radius:50%;" alt="ROSH4N Avatar"/>
 </p>
 
 ---
