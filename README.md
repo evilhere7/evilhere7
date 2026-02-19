@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is ROSH4N and I'm a Software Developer,from Nepal </h2>
+<h2 align="left">Hi 👋! My name is ... and I'm a ..., from ....</h2>
 
 ###
 
@@ -9,7 +9,8 @@
 
 ###
 
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
+<!-- ✅ Your New Profile Image -->
+<img align="right" height="150" src="https://i.ibb.co/6cKQNDF4/channels4-profile.jpg" />
 
 ###
 
