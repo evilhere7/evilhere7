@@ -45,7 +45,7 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/evilhare7/evilhare7/output/snake.svg" />
+<img src="https://raw.githubusercontent.com/evilhere7/evilhere7/output/snake.svg" />
 
 
 ###
