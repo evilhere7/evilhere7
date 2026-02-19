@@ -14,7 +14,7 @@ jobs:
 
       - uses: Platane/snk@v3
         with:
-          github_user_name: YOUR_USERNAME
+          github_user_name: evilhere7
           outputs: dist/snake.svg
 
       - uses: crazy-max/ghaction-github-pages@v3
