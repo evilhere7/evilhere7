@@ -11,7 +11,7 @@
 
 <p>
   <a href="https://github.com/evilhere7">
-    <img src="https://komarev.com/ghpvc/?username=evilhere7&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=evilhere7&label=PROFILE%20VIEWS&color=0e75b6&style=for-the-badge" alt="Profile Views" />
   </a>
 </p>
 
