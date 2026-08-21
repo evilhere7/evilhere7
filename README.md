@@ -1,18 +1,19 @@
-<div align="right">
-  <img src="https://i.ibb.co/xqDNPPd6/channels4-profile.jpg" height="150" alt="ROSH4N Logo" />
+<div align="center">
+
+  <h1>
+    Hi 👋, I'm ROSH4N
+    <img src="https://i.ibb.co/xqDNPPd6/channels4-profile.jpg" height="55" alt="ROSH4N Logo" />
+  </h1>
+
+  <h3>Software Developer from Nepal 🇳🇵</h3>
+
+  <p>
+    <a href="https://github.com/evilhere7">
+      <img src="https://komarev.com/ghpvc/?username=evilhere7&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+    </a>
+  </p>
+
 </div>
-
-<h1 align="center">Hi 👋, I'm ROSH4N</h1>
-
-<h3 align="center">Software Developer from Nepal 🇳🇵</h3>
-
-<p align="center">
-  <a href="https://github.com/evilhere7">
-    <img src="https://komarev.com/ghpvc/?username=evilhere7&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-  </a>
-</p>
-
-<br clear="both">
 
 ---
 
