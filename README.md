@@ -1,3 +1,7 @@
+<div align="right">
+  <img src="https://i.ibb.co/xqDNPPd6/channels4-profile.jpg" height="150" alt="ROSH4N Logo" />
+</div>
+
 <h1 align="center">Hi 👋, I'm ROSH4N</h1>
 
 <h3 align="center">Software Developer from Nepal 🇳🇵</h3>
@@ -8,15 +12,18 @@
   </a>
 </p>
 
+<br clear="both">
+
 ---
 
 ## 👨‍💻 About Me
 
 * 💻 Software Developer
-* 🌱 Currently learning and building with modern technologies
-* 🚀 Interested in Full-Stack Development, Open Source & Cybersecurity
-* 🛠️ I enjoy building real-world projects and experimenting with new technologies
-* 🇳🇵 Based in Nepal
+* 🚀 Full-Stack Developer
+* 🔐 Interested in Cybersecurity
+* 🌱 Always learning and experimenting with new technologies
+* 🛠️ I enjoy building real-world applications and open-source projects
+* 🇳🇵 From Nepal
 
 ---
 
@@ -54,7 +61,20 @@
 
 ---
 
-## 🛠️ Technologies & Tools
+## 📈 GitHub Activity
+
+<div align="center">
+
+<img
+ src="https://github-readme-activity-graph.vercel.app/graph?username=evilhere7&theme=dracula&hide_border=false"
+ alt="GitHub Activity Graph"
+/>
+
+</div>
+
+---
+
+## 🛠️ Languages & Technologies
 
 <div align="left">
 
@@ -64,22 +84,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="TypeScript" />
   <img width="12" />
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React" />
-  <img width="12" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="Node.js" />
-  <img width="12" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5" />
-  <img width="12" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3" />
-  <img width="12" />
-
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" />
-  <img width="12" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" />
   <img width="12" />
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="C" />
@@ -88,18 +93,40 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" />
   <img width="12" />
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git" />
-  <img width="12" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="GitHub" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" />
 
 </div>
 
 ---
 
-## 🗄️ Databases & Backend
+## 🌐 Frontend
 
 <div align="left">
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React" />
+  <img width="12" />
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5" />
+  <img width="12" />
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3" />
+  <img width="12" />
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="40" alt="Tailwind CSS" />
+
+</div>
+
+---
+
+## ⚙️ Backend & Databases
+
+<div align="left">
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="Node.js" />
+  <img width="12" />
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" alt="Express" />
+  <img width="12" />
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL" />
   <img width="12" />
@@ -126,7 +153,10 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux" />
   <img width="12" />
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" height="40" alt="Vercel" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git" />
+  <img width="12" />
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="GitHub" />
   <img width="12" />
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloudflare/cloudflare-original.svg" height="40" alt="Cloudflare" />
@@ -141,15 +171,15 @@
 
 A logistics-focused e-commerce platform designed for the Nepalese market.
 
-**Technologies:** React · TypeScript · Node.js · PostgreSQL · Supabase · Redis
+**Stack:** React · TypeScript · Node.js · PostgreSQL · Supabase · Redis
 
 ---
 
 ### 🎥 GramMate
 
-A social media platform focused on video content, creators, profiles, and monetization.
+A social media platform focused on video content, creators, profiles, wallets, and monetization.
 
-**Technologies:** React · TypeScript · Supabase · PostgreSQL · Firebase
+**Stack:** React · TypeScript · Supabase · PostgreSQL · Firebase
 
 ---
 
@@ -161,7 +191,7 @@ Building and experimenting with Minecraft servers, plugins, and gaming infrastru
 
 ## 🌐 Connect With Me
 
-<div align="left">
+<div align="center">
 
   <a href="https://www.youtube.com/@evilmc9384">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="35" alt="YouTube" />
@@ -187,17 +217,10 @@ Building and experimenting with Minecraft servers, plugins, and gaming infrastru
 
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/evilhere7/evilhere7/output/snake.svg" alt="Contribution Snake" />
-
-</div>
-
----
-
-## 📈 Activity
-
-<div align="center">
-
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=evilhere7&theme=dracula&hide_border=false" alt="GitHub Activity Graph" />
+<img
+ src="https://raw.githubusercontent.com/evilhere7/evilhere7/output/snake.svg"
+ alt="GitHub Contribution Snake"
+/>
 
 </div>
 
