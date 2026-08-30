@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const copyEmailBtn = document.getElementById('copy-email-btn');
   if (copyEmailBtn) {
     copyEmailBtn.addEventListener('click', () => {
-      const email = 'roshan.contact@example.com';
+      const email = 'evilmc777@gmail.com';
       navigator.clipboard.writeText(email).then(() => {
         showToast('✓ Email copied to clipboard: ' + email);
         copyEmailBtn.textContent = '✓ Copied';
@@ -221,7 +221,13 @@ document.addEventListener('DOMContentLoaded', () => {
             break;
 
           case 'skills':
-            outputHTML = `Languages: C, C++, Python, JavaScript, TypeScript<br>Web &amp; Backend: HTML, CSS, React, Node.js, PostgreSQL, Supabase`;
+            outputHTML = `
+              <strong>[Languages]</strong> C, C++, Python, JavaScript (ES6+), TypeScript, Java, SQL, Bash<br>
+              <strong>[Frontend &amp; Web]</strong> HTML5, CSS3, React, Next.js, Tailwind CSS, Responsive Design<br>
+              <strong>[Backend &amp; DB]</strong> Node.js, Express.js, PostgreSQL, Supabase, Firebase, REST APIs<br>
+              <strong>[Tools &amp; DevOps]</strong> Git, GitHub, VS Code, Linux, Vercel, Docker Basics, Postman<br>
+              <strong>[Security &amp; Systems]</strong> Network Protocols, OWASP Top 10, Linux Admin, Packet Analysis
+            `;
             break;
 
           case 'projects':
