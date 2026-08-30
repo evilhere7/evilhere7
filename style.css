@@ -299,6 +299,41 @@ section {
   border-radius: 2px;
 }
 
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.cmd-palette-btn {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  transition: all var(--transition-quick);
+}
+
+.cmd-palette-btn:hover {
+  border-color: var(--accent-green);
+  color: var(--accent-green);
+}
+
+.cmd-palette-btn kbd {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-muted);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+}
+
 .nav-toggle {
   display: none;
   background: none;
@@ -388,11 +423,17 @@ section {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.75rem;
   flex-wrap: wrap;
 }
 
 /* Personal handwritten / terminal status detail */
+.hero-status-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
 .hero-status-box {
   display: inline-flex;
   align-items: center;
@@ -411,6 +452,21 @@ section {
   height: 7px;
   border-radius: 50%;
   background: var(--accent-green);
+}
+
+/* Live Nepal Time widget */
+.nepal-time-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.nepal-time-pill .live-clock {
+  color: var(--accent-green);
+  font-weight: 600;
 }
 
 /* Hero Avatar Card */
@@ -570,7 +626,7 @@ section {
   text-align: right;
 }
 
-/* Simple Terminal Info Block */
+/* Interactive Terminal Info Block */
 .about-terminal {
   margin-top: 1.5rem;
   background: var(--bg-input);
@@ -583,8 +639,14 @@ section {
 
 .terminal-header-simple {
   display: flex;
-  gap: 0.4rem;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 0.85rem;
+}
+
+.terminal-dots-simple {
+  display: flex;
+  gap: 0.4rem;
 }
 
 .term-dot {
@@ -592,6 +654,17 @@ section {
   height: 9px;
   border-radius: 50%;
   background: var(--border-color);
+}
+
+.terminal-tab-title {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.terminal-log {
+  max-height: 160px;
+  overflow-y: auto;
+  margin-bottom: 0.6rem;
 }
 
 .term-line {
@@ -607,6 +680,24 @@ section {
 .term-output-text {
   color: var(--text-primary);
   padding-left: 0.5rem;
+}
+
+.terminal-interactive-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-top: 1px dashed var(--border-muted);
+  padding-top: 0.6rem;
+}
+
+.terminal-input-live {
+  background: transparent;
+  border: none;
+  color: var(--accent-green);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  width: 100%;
+  outline: none;
 }
 
 /* --- 7. Skills Section (02 — SKILLS) --- */
@@ -666,6 +757,37 @@ section {
 }
 
 /* --- 8. Projects Section (03 — THINGS I'VE BUILT) --- */
+.project-filters {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.4rem 0.85rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-quick);
+}
+
+.filter-btn:hover {
+  color: var(--text-primary);
+  border-color: var(--accent-green);
+}
+
+.filter-btn.active {
+  background: var(--accent-green);
+  color: #0d1117;
+  border-color: var(--accent-green);
+}
+
 .projects-list {
   display: flex;
   flex-direction: column;
@@ -680,6 +802,10 @@ section {
   grid-template-columns: 0.9fr 1.1fr;
   overflow: hidden;
   transition: all var(--transition-normal);
+}
+
+.project-item.hidden {
+  display: none;
 }
 
 .project-item:hover {
@@ -916,10 +1042,27 @@ section {
 
 .channel-label {
   color: var(--text-muted);
-  min-width: 70px;
+  min-width: 75px;
 }
 
 .channel-val {
+  color: var(--accent-green);
+}
+
+.copy-email-btn {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: 0.25rem 0.55rem;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all var(--transition-quick);
+}
+
+.copy-email-btn:hover {
+  border-color: var(--accent-green);
   color: var(--accent-green);
 }
 
@@ -1074,6 +1217,115 @@ textarea.field-input {
   visibility: visible;
 }
 
+/* Developer Command Palette Modal */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  z-index: 2100;
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--transition-quick);
+}
+
+.modal-backdrop.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.palette-dialog {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  max-width: 500px;
+  width: 100%;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  font-family: var(--font-mono);
+}
+
+.palette-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.75rem;
+}
+
+.palette-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.palette-close-btn {
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.palette-close-btn:hover {
+  color: var(--text-primary);
+}
+
+.palette-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.palette-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 0.8rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-muted);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-quick);
+  color: var(--text-primary);
+  font-size: 0.85rem;
+}
+
+.palette-item:hover {
+  border-color: var(--accent-green);
+  color: var(--accent-green);
+  transform: translateX(3px);
+}
+
+.palette-item kbd {
+  background: var(--bg-main);
+  border: 1px solid var(--border-color);
+  padding: 0.15rem 0.45rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  color: var(--accent-green);
+}
+
+/* Note Reader Modal */
+.note-reader-body {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  max-height: 60vh;
+  overflow-y: auto;
+  margin-top: 1rem;
+}
+
+.note-reader-body h4 {
+  color: var(--text-heading);
+  margin-bottom: 0.75rem;
+  font-size: 1.15rem;
+}
+
 /* Scroll reveal utility */
 .reveal {
   opacity: 0;
@@ -1107,8 +1359,8 @@ textarea.field-input {
     justify-content: center;
   }
 
-  .hero-status-box {
-    margin: 0 auto;
+  .hero-status-wrapper {
+    align-items: center;
   }
 
   .about-grid,
@@ -1140,6 +1392,10 @@ textarea.field-input {
 @media (max-width: 768px) {
   .nav-toggle {
     display: block;
+  }
+
+  .cmd-palette-btn {
+    display: none;
   }
 
   .nav-menu {
