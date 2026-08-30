@@ -243,92 +243,362 @@
     <section id="skills">
       <div class="container">
         <span class="section-label">02 — SKILLS</span>
-        <h2 class="section-heading">Technologies &amp; Expertise</h2>
-        <p class="section-intro">Languages, frameworks, tools, and technical areas I actively work with and explore as a software developer.</p>
+        <h2 class="section-heading">Technologies &amp; Tools</h2>
+        <p class="section-intro">Technologies and tools I work with, learn, and explore.</p>
+
+        <!-- MY TOOLBOX COMPACT AREA -->
+        <div class="skills-toolbox-block reveal">
+          <span class="toolbox-title">🛠️ MY TOOLBOX</span>
+          <div class="toolbox-tags">
+            <span class="toolbox-tag">VS Code</span>
+            <span class="toolbox-tag">Git</span>
+            <span class="toolbox-tag">GitHub</span>
+            <span class="toolbox-tag">Vercel</span>
+            <span class="toolbox-tag">Supabase</span>
+            <span class="toolbox-tag">Firebase</span>
+            <span class="toolbox-tag">PostgreSQL</span>
+            <span class="toolbox-tag">Node.js</span>
+            <span class="toolbox-tag">Python</span>
+            <span class="toolbox-tag">Docker</span>
+            <span class="toolbox-tag">Linux</span>
+          </div>
+        </div>
+
+        <!-- CURRENTLY LEARNING AREA -->
+        <div class="skills-learning-block reveal">
+          <div class="learning-block-header">
+            <span>🌱</span> CURRENTLY LEARNING &amp; EXPLORING
+          </div>
+          <div class="learning-chips-grid">
+            <span class="learning-chip">Cybersecurity &amp; Network Defense</span>
+            <span class="learning-chip">Advanced Full-Stack Development</span>
+            <span class="learning-chip">System Design Fundamentals</span>
+            <span class="learning-chip">Artificial Intelligence &amp; LLMs</span>
+            <span class="learning-chip">Algorithms &amp; Data Structures</span>
+            <span class="learning-chip">Cloud &amp; DevOps Pipelines</span>
+          </div>
+        </div>
+
+        <!-- Category Filter Tabs for Skills -->
+        <div class="skill-tabs-nav reveal">
+          <button class="skill-tab-btn active" data-skill-tab="all">All Skills</button>
+          <button class="skill-tab-btn" data-skill-tab="languages">Languages</button>
+          <button class="skill-tab-btn" data-skill-tab="frontend">Frontend</button>
+          <button class="skill-tab-btn" data-skill-tab="backend">Backend &amp; DB</button>
+          <button class="skill-tab-btn" data-skill-tab="cloud">Cloud &amp; DevOps</button>
+          <button class="skill-tab-btn" data-skill-tab="security">Cybersecurity</button>
+          <button class="skill-tab-btn" data-skill-tab="cs">CS &amp; Engineering</button>
+          <button class="skill-tab-btn" data-skill-tab="ai-tools">AI &amp; Tools</button>
+        </div>
 
         <div class="skills-container reveal">
-          <!-- Languages -->
-          <div class="skill-category-row">
-            <div class="category-name">LANGUAGES</div>
+          <!-- 1. Programming Languages -->
+          <div class="skill-category-row" data-skill-group="languages">
+            <div>
+              <div class="category-name">LANGUAGES</div>
+              <span class="category-subtitle">Core &amp; scripting</span>
+            </div>
             <ul class="skills-tag-list">
               <li class="skill-tag">C</li>
               <li class="skill-tag">C++</li>
               <li class="skill-tag">Python</li>
-              <li class="skill-tag">JavaScript (ES6+)</li>
-              <li class="skill-tag">TypeScript</li>
               <li class="skill-tag">Java</li>
+              <li class="skill-tag">JavaScript</li>
+              <li class="skill-tag">TypeScript</li>
               <li class="skill-tag">SQL</li>
-              <li class="skill-tag">Bash / Shell</li>
+              <li class="skill-tag">Bash</li>
+              <li class="skill-tag">HTML</li>
+              <li class="skill-tag">CSS</li>
             </ul>
           </div>
 
-          <!-- Frontend & Web Development -->
-          <div class="skill-category-row">
-            <div class="category-name">FRONTEND &amp; WEB</div>
+          <!-- 2. Frontend Development -->
+          <div class="skill-category-row" data-skill-group="frontend">
+            <div>
+              <div class="category-name">FRONTEND DEV</div>
+              <span class="category-subtitle">UI &amp; client architecture</span>
+            </div>
             <ul class="skills-tag-list">
               <li class="skill-tag">HTML5</li>
               <li class="skill-tag">CSS3</li>
+              <li class="skill-tag">JavaScript</li>
+              <li class="skill-tag">TypeScript</li>
               <li class="skill-tag">React</li>
-              <li class="skill-tag">Next.js</li>
-              <li class="skill-tag">Tailwind CSS</li>
-              <li class="skill-tag">Responsive Layouts</li>
-              <li class="skill-tag">Web APIs &amp; Fetch</li>
+              <li class="skill-tag">Responsive Web Design</li>
+              <li class="skill-tag">Accessibility (a11y)</li>
               <li class="skill-tag">DOM Manipulation</li>
+              <li class="skill-tag">Web APIs</li>
+              <li class="skill-tag">Modern CSS</li>
+              <li class="skill-tag">CSS Grid</li>
+              <li class="skill-tag">Flexbox</li>
+              <li class="skill-tag">UI/UX Fundamentals</li>
+              <li class="skill-tag">Browser DevTools</li>
             </ul>
           </div>
 
-          <!-- Backend & Databases -->
-          <div class="skill-category-row">
-            <div class="category-name">BACKEND &amp; DATABASES</div>
+          <!-- 3. Backend Development -->
+          <div class="skill-category-row" data-skill-group="backend">
+            <div>
+              <div class="category-name">BACKEND DEV</div>
+              <span class="category-subtitle">Server logic &amp; APIs</span>
+            </div>
             <ul class="skills-tag-list">
               <li class="skill-tag">Node.js</li>
               <li class="skill-tag">Express.js</li>
-              <li class="skill-tag">PostgreSQL</li>
-              <li class="skill-tag">Supabase</li>
-              <li class="skill-tag">Firebase</li>
-              <li class="skill-tag">RESTful APIs</li>
-              <li class="skill-tag">Authentication (JWT)</li>
-              <li class="skill-tag">CRUD Architectures</li>
+              <li class="skill-tag">REST APIs</li>
+              <li class="skill-tag">API Design</li>
+              <li class="skill-tag">Authentication</li>
+              <li class="skill-tag">Authorization</li>
+              <li class="skill-tag">Sessions &amp; Cookies</li>
+              <li class="skill-tag">JWT</li>
+              <li class="skill-tag">WebSockets</li>
+              <li class="skill-tag">Server-side development</li>
+              <li class="skill-tag">CRUD applications</li>
+              <li class="skill-tag">Middleware</li>
+              <li class="skill-tag">Error handling</li>
             </ul>
           </div>
 
-          <!-- Tools & Workflow -->
-          <div class="skill-category-row">
-            <div class="category-name">TOOLS &amp; DEVOPS</div>
+          <!-- 4. Databases & Data Modeling -->
+          <div class="skill-category-row" data-skill-group="backend">
+            <div>
+              <div class="category-name">DATABASES</div>
+              <span class="category-subtitle">SQL &amp; NoSQL systems</span>
+            </div>
+            <ul class="skills-tag-list">
+              <li class="skill-tag">PostgreSQL</li>
+              <li class="skill-tag">MySQL</li>
+              <li class="skill-tag">SQLite</li>
+              <li class="skill-tag">MongoDB</li>
+              <li class="skill-tag">Firebase Firestore</li>
+              <li class="skill-tag">Redis</li>
+              <li class="skill-tag">Database Design</li>
+              <li class="skill-tag">Schema Design</li>
+              <li class="skill-tag">Relationships</li>
+              <li class="skill-tag">Indexing</li>
+              <li class="skill-tag">Queries</li>
+              <li class="skill-tag">Transactions</li>
+              <li class="skill-tag">Migrations</li>
+              <li class="skill-tag">Data Modeling</li>
+            </ul>
+          </div>
+
+          <!-- 5. Databases & Backend Services -->
+          <div class="skill-category-row" data-skill-group="backend">
+            <div>
+              <div class="category-name">BACKEND SERVICES</div>
+              <span class="category-subtitle">BaaS &amp; platforms</span>
+            </div>
+            <ul class="skills-tag-list">
+              <li class="skill-tag">Supabase</li>
+              <li class="skill-tag">Firebase</li>
+              <li class="skill-tag">PostgreSQL</li>
+              <li class="skill-tag">Redis</li>
+            </ul>
+          </div>
+
+          <!-- 6. Git & Version Control -->
+          <div class="skill-category-row" data-skill-group="cloud">
+            <div>
+              <div class="category-name">GIT &amp; VERSIONING</div>
+              <span class="category-subtitle">Collaboration &amp; flow</span>
+            </div>
             <ul class="skills-tag-list">
               <li class="skill-tag">Git</li>
               <li class="skill-tag">GitHub</li>
-              <li class="skill-tag">VS Code</li>
-              <li class="skill-tag">Linux / Unix</li>
+              <li class="skill-tag">GitHub Actions</li>
+              <li class="skill-tag">Branching</li>
+              <li class="skill-tag">Pull Requests</li>
+              <li class="skill-tag">Merge Conflicts</li>
+              <li class="skill-tag">Code Review</li>
+              <li class="skill-tag">Version Control</li>
+              <li class="skill-tag">CI/CD basics</li>
+            </ul>
+          </div>
+
+          <!-- 7. Cloud & Deployment -->
+          <div class="skill-category-row" data-skill-group="cloud">
+            <div>
+              <div class="category-name">CLOUD &amp; HOSTING</div>
+              <span class="category-subtitle">Deployment &amp; infrastructure</span>
+            </div>
+            <ul class="skills-tag-list">
               <li class="skill-tag">Vercel</li>
-              <li class="skill-tag">Docker Basics</li>
+              <li class="skill-tag">GitHub Pages</li>
+              <li class="skill-tag">Netlify</li>
+              <li class="skill-tag">Cloudflare</li>
+              <li class="skill-tag">Docker</li>
+              <li class="skill-tag">Linux</li>
+              <li class="skill-tag">VPS basics</li>
+              <li class="skill-tag">DNS &amp; Domains</li>
+              <li class="skill-tag">HTTPS / SSL</li>
+              <li class="skill-tag">Environment Variables</li>
+              <li class="skill-tag">Deployment</li>
+              <li class="skill-tag">Reverse Proxy basics</li>
+            </ul>
+          </div>
+
+          <!-- 8. DevOps -->
+          <div class="skill-category-row" data-skill-group="cloud">
+            <div>
+              <div class="category-name">DEVOPS</div>
+              <span class="category-subtitle">Automation &amp; containers</span>
+            </div>
+            <ul class="skills-tag-list">
+              <li class="skill-tag">Docker</li>
+              <li class="skill-tag">Docker Compose</li>
+              <li class="skill-tag">CI/CD</li>
+              <li class="skill-tag">GitHub Actions</li>
+              <li class="skill-tag">Linux</li>
+              <li class="skill-tag">Bash</li>
+              <li class="skill-tag">Environment Variables</li>
+              <li class="skill-tag">Logging</li>
+              <li class="skill-tag">Monitoring basics</li>
+              <li class="skill-tag">Deployment automation</li>
+              <li class="skill-tag">Server configuration basics</li>
+            </ul>
+          </div>
+
+          <!-- 9. APIs & Web Technologies -->
+          <div class="skill-category-row" data-skill-group="backend">
+            <div>
+              <div class="category-name">APIS &amp; WEB TECH</div>
+              <span class="category-subtitle">Protocols &amp; integration</span>
+            </div>
+            <ul class="skills-tag-list">
+              <li class="skill-tag">REST</li>
+              <li class="skill-tag">HTTP / HTTPS</li>
+              <li class="skill-tag">JSON</li>
+              <li class="skill-tag">WebSockets</li>
+              <li class="skill-tag">Fetch API</li>
+              <li class="skill-tag">Authentication APIs</li>
+              <li class="skill-tag">OAuth basics</li>
+              <li class="skill-tag">API testing</li>
               <li class="skill-tag">Postman</li>
-              <li class="skill-tag">npm / pnpm</li>
+              <li class="skill-tag">Webhooks</li>
             </ul>
           </div>
 
-          <!-- Cybersecurity & Systems -->
-          <div class="skill-category-row">
-            <div class="category-name">SECURITY &amp; SYSTEMS</div>
+          <!-- 10. Cybersecurity — Learning & Exploring -->
+          <div class="skill-category-row" data-skill-group="security">
+            <div>
+              <div class="category-name">CYBERSECURITY</div>
+              <span class="category-subtitle">Learning &amp; exploring</span>
+            </div>
             <ul class="skills-tag-list">
-              <li class="skill-tag">Network Protocols (TCP/IP, HTTP/S, DNS)</li>
+              <li class="skill-tag">Networking fundamentals</li>
+              <li class="skill-tag">TCP/IP</li>
+              <li class="skill-tag">DNS</li>
+              <li class="skill-tag">HTTP/HTTPS</li>
+              <li class="skill-tag">Linux security basics</li>
+              <li class="skill-tag">Authentication &amp; Authorization</li>
+              <li class="skill-tag">Password security</li>
+              <li class="skill-tag">Cryptography fundamentals</li>
+              <li class="skill-tag">Hashing &amp; Encryption</li>
               <li class="skill-tag">OWASP Top 10</li>
-              <li class="skill-tag">Linux Administration</li>
-              <li class="skill-tag">Packet Analysis (Wireshark)</li>
-              <li class="skill-tag">Web App Security</li>
-              <li class="skill-tag">Defensive Coding</li>
+              <li class="skill-tag">Web security</li>
+              <li class="skill-tag">SQL Injection awareness</li>
+              <li class="skill-tag">XSS awareness</li>
+              <li class="skill-tag">CSRF awareness</li>
+              <li class="skill-tag">Secure coding</li>
+              <li class="skill-tag">Security testing</li>
+              <li class="skill-tag">Vulnerability assessment</li>
+              <li class="skill-tag">OSINT fundamentals</li>
+              <li class="skill-tag">Network security fundamentals</li>
+              <li class="skill-tag">Security monitoring</li>
+              <li class="skill-tag">Incident response fundamentals</li>
             </ul>
           </div>
 
-          <!-- Core Concepts & Domains -->
-          <div class="skill-category-row">
-            <div class="category-name">CONCEPTS &amp; DOMAINS</div>
+          <!-- 11. Computer Science Fundamentals -->
+          <div class="skill-category-row" data-skill-group="cs">
+            <div>
+              <div class="category-name">CS FUNDAMENTALS</div>
+              <span class="category-subtitle">Theory &amp; structures</span>
+            </div>
             <ul class="skills-tag-list">
-              <li class="skill-tag">Data Structures &amp; Algorithms</li>
-              <li class="skill-tag">AI &amp; Automation Scripting</li>
-              <li class="skill-tag">Minecraft Server Tooling (Spigot/Paper)</li>
-              <li class="skill-tag">Open Source Collaboration</li>
-              <li class="skill-tag">Problem Solving &amp; Debugging</li>
+              <li class="skill-tag">Data Structures</li>
+              <li class="skill-tag">Algorithms</li>
+              <li class="skill-tag">Object-Oriented Programming</li>
+              <li class="skill-tag">Functional Programming basics</li>
+              <li class="skill-tag">Recursion</li>
+              <li class="skill-tag">Complexity Analysis</li>
+              <li class="skill-tag">Memory Management</li>
+              <li class="skill-tag">Operating Systems fundamentals</li>
+              <li class="skill-tag">Computer Networks</li>
+              <li class="skill-tag">Databases</li>
+              <li class="skill-tag">Software Engineering</li>
+              <li class="skill-tag">Design Patterns</li>
+              <li class="skill-tag">System Design fundamentals</li>
+              <li class="skill-tag">Problem Solving</li>
+            </ul>
+          </div>
+
+          <!-- 12. Software Engineering & Testing -->
+          <div class="skill-category-row" data-skill-group="cs">
+            <div>
+              <div class="category-name">ENGINEERING &amp; QA</div>
+              <span class="category-subtitle">Practices &amp; quality</span>
+            </div>
+            <ul class="skills-tag-list">
+              <li class="skill-tag">Clean Code</li>
+              <li class="skill-tag">Code Organization</li>
+              <li class="skill-tag">Debugging</li>
+              <li class="skill-tag">Unit Testing</li>
+              <li class="skill-tag">Integration Testing</li>
+              <li class="skill-tag">End-to-End Testing</li>
+              <li class="skill-tag">API Testing</li>
+              <li class="skill-tag">Test-Driven Development basics</li>
+              <li class="skill-tag">Error Handling</li>
+              <li class="skill-tag">Documentation</li>
+              <li class="skill-tag">Code Reviews</li>
+              <li class="skill-tag">Refactoring</li>
+              <li class="skill-tag">Software Architecture</li>
+              <li class="skill-tag">Agile/Scrum basics</li>
+              <li class="skill-tag">Requirements Analysis</li>
+            </ul>
+          </div>
+
+          <!-- 13. AI — Exploring -->
+          <div class="skill-category-row" data-skill-group="ai-tools">
+            <div>
+              <div class="category-name">AI &amp; MACHINE LEARNING</div>
+              <span class="category-subtitle">Exploring &amp; integrations</span>
+            </div>
+            <ul class="skills-tag-list">
+              <li class="skill-tag">Artificial Intelligence</li>
+              <li class="skill-tag">Machine Learning fundamentals</li>
+              <li class="skill-tag">Generative AI</li>
+              <li class="skill-tag">LLMs</li>
+              <li class="skill-tag">Prompt Engineering</li>
+              <li class="skill-tag">AI APIs</li>
+              <li class="skill-tag">Python for AI</li>
+              <li class="skill-tag">Computer Vision basics</li>
+              <li class="skill-tag">AI-assisted development</li>
+            </ul>
+          </div>
+
+          <!-- 14. Tools & Development Environment -->
+          <div class="skill-category-row" data-skill-group="ai-tools">
+            <div>
+              <div class="category-name">TOOLS &amp; WORKFLOW</div>
+              <span class="category-subtitle">Dev environment</span>
+            </div>
+            <ul class="skills-tag-list">
+              <li class="skill-tag">VS Code</li>
+              <li class="skill-tag">Git</li>
+              <li class="skill-tag">GitHub</li>
+              <li class="skill-tag">GitHub Actions</li>
+              <li class="skill-tag">Postman</li>
+              <li class="skill-tag">npm</li>
+              <li class="skill-tag">npx</li>
+              <li class="skill-tag">Vite</li>
+              <li class="skill-tag">pip</li>
+              <li class="skill-tag">Node.js</li>
+              <li class="skill-tag">Linux</li>
+              <li class="skill-tag">Windows Terminal</li>
+              <li class="skill-tag">Bash</li>
+              <li class="skill-tag">Chrome DevTools</li>
             </ul>
           </div>
         </div>
@@ -537,22 +807,16 @@
       <div class="container">
         <span class="section-label">05 — SAY HELLO</span>
         <h2 class="section-heading">Get in Touch</h2>
-        <p class="section-intro">Want to talk about code, projects, cybersecurity, Minecraft, or something completely random?</p>
+        <p class="section-intro">Want to talk about code, projects, cybersecurity, Minecraft, AI, or something completely random?</p>
 
         <div class="contact-grid">
           <!-- Left: Info -->
           <div class="contact-info-block reveal">
             <p>
-              Feel free to reach out if you want to collaborate on open-source projects, discuss web development or cybersecurity, or share ideas.
+              Have a project idea, want to collaborate on open-source, or just want to talk about technology, security, or development? Feel free to reach out.
             </p>
 
             <div class="contact-channels">
-              <div class="contact-channel-item">
-                <span class="channel-label">GITHUB</span>
-                <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer" class="channel-val">
-                  github.com/evilhere7 ↗
-                </a>
-              </div>
               <div class="contact-channel-item">
                 <span class="channel-label">EMAIL</span>
                 <a href="mailto:evilmc777@gmail.com" class="channel-val" id="email-text">evilmc777@gmail.com</a>
@@ -561,9 +825,21 @@
                 </button>
               </div>
               <div class="contact-channel-item">
+                <span class="channel-label">GITHUB</span>
+                <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer" class="channel-val">
+                  github.com/evilhere7 ↗
+                </a>
+              </div>
+              <div class="contact-channel-item">
                 <span class="channel-label">LOCATION</span>
                 <span style="color: var(--text-primary);">Nepal 🇳🇵</span>
               </div>
+            </div>
+
+            <div style="margin-top: 1.25rem;">
+              <a href="mailto:evilmc777@gmail.com" class="project-link-btn" style="display:inline-flex;">
+                Send me an email →
+              </a>
             </div>
           </div>
 
@@ -609,11 +885,13 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div>
-        <strong>ROSH4N</strong> • Built with HTML, CSS &amp; JavaScript. • Hack Club Stardance
+        <strong>ROSH4N</strong> • Software Developer • Nepal • <a href="mailto:evilmc777@gmail.com" style="color:var(--accent-green);">evilmc777@gmail.com</a>
       </div>
 
       <div class="footer-nav">
         <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <span>•</span>
+        <span>Built with HTML, CSS &amp; JavaScript.</span>
         <span>•</span>
         <span>&copy; <span id="current-year">2026</span> ROSH4N</span>
         <span>•</span>

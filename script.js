@@ -187,6 +187,28 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  /* --- 8.1 Skill Category Tabs Filter --- */
+  const skillTabBtns = document.querySelectorAll('.skill-tab-btn');
+  const skillCategoryRows = document.querySelectorAll('.skill-category-row');
+
+  skillTabBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      skillTabBtns.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const tab = btn.getAttribute('data-skill-tab');
+
+      skillCategoryRows.forEach((row) => {
+        const group = row.getAttribute('data-skill-group');
+        if (tab === 'all' || group === tab) {
+          row.classList.remove('hidden');
+        } else {
+          row.classList.add('hidden');
+        }
+      });
+    });
+  });
+
   /* --- 9. Interactive About Terminal --- */
   const terminalInput = document.getElementById('terminal-inline-input');
   const terminalLog = document.getElementById('about-terminal-log');

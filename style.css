@@ -701,10 +701,122 @@ section {
 }
 
 /* --- 7. Skills Section (02 — SKILLS) --- */
+.skills-intro-wrapper {
+  margin-bottom: 2rem;
+}
+
+.skills-toolbox-block {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.toolbox-title {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent-green);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.toolbox-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.toolbox-tag {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-muted);
+  color: var(--text-heading);
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.skills-learning-block {
+  background: var(--bg-subtle);
+  border: 1px dashed var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.learning-block-header {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--accent-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.learning-chips-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.learning-chip {
+  background: rgba(88, 166, 255, 0.08);
+  border: 1px solid rgba(88, 166, 255, 0.25);
+  color: var(--text-primary);
+  padding: 0.3rem 0.7rem;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+
+/* Category Filter Tabs for Skills */
+.skill-tabs-nav {
+  display: flex;
+  gap: 0.45rem;
+  margin-bottom: 1.75rem;
+  flex-wrap: wrap;
+}
+
+.skill-tab-btn {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.45rem 0.85rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-quick);
+}
+
+.skill-tab-btn:hover {
+  border-color: var(--accent-green);
+  color: var(--text-primary);
+}
+
+.skill-tab-btn.active {
+  background: var(--accent-green);
+  color: #0d1117;
+  border-color: var(--accent-green);
+}
+
 .skills-container {
   display: flex;
   flex-direction: column;
-  gap: 1.75rem;
+  gap: 1.25rem;
 }
 
 .skill-category-row {
@@ -712,10 +824,15 @@ section {
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
   padding: 1.25rem 1.5rem;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 1.5rem;
+  align-items: start;
   transition: border-color var(--transition-quick);
+}
+
+.skill-category-row.hidden {
+  display: none;
 }
 
 .skill-category-row:hover {
@@ -726,28 +843,44 @@ section {
   font-family: var(--font-mono);
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--text-muted);
+  color: var(--accent-green);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  min-width: 140px;
+  line-height: 1.4;
+}
+
+.category-subtitle {
+  display: block;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  margin-top: 0.2rem;
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 .skills-tag-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.45rem;
   list-style: none;
 }
 
 .skill-tag {
   background: var(--bg-elevated);
   border: 1px solid var(--border-muted);
-  padding: 0.35rem 0.75rem;
+  padding: 0.3rem 0.65rem;
   border-radius: var(--radius-sm);
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: var(--text-primary);
   transition: all var(--transition-quick);
+}
+
+.skill-tag:hover {
+  border-color: var(--accent-green);
+  color: var(--accent-green);
+  transform: translateY(-2px);
 }
 
 .skill-tag:hover {
