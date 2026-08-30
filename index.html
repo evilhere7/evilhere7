@@ -5,37 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <!-- SEO Meta Tags -->
-  <title>ROSH4N | Software Developer &amp; Full-Stack Developer</title>
-  <meta name="description" content="Personal portfolio and website of ROSH4N (Roshan Rimal), a software developer from Nepal passionate about web development, cybersecurity, AI, and building open-source projects.">
-  <meta name="keywords" content="ROSH4N, Roshan Rimal, Software Developer, Full-Stack Developer, Nepal, Cybersecurity, Web Development, Stardance">
+  <!-- SEO & Metadata -->
+  <title>ROSH4N | Software Developer</title>
+  <meta name="description" content="Personal website of ROSH4N, a software developer from Nepal interested in software development, cybersecurity, web development, and AI.">
   <meta name="author" content="ROSH4N">
-  <meta name="theme-color" content="#080c14">
+  <meta name="theme-color" content="#0d1117">
 
-  <!-- Open Graph / Social Media Meta -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="ROSH4N | Software Developer">
   <meta property="og:description" content="Personal website and portfolio of ROSH4N, software developer from Nepal.">
-  <meta property="og:image" content="assets/profile.jpg">
+  <meta property="og:image" content="https://i.ibb.co/xqDNPPd6/channels4-profile.jpg">
 
-  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <!-- Typography: Plus Jakarta Sans & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Custom Stylesheet -->
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- ==========================================
-       Header & Sticky Navigation
+       Navigation Bar
        ========================================== -->
   <header class="site-header">
     <div class="container navbar">
-      <a href="#home" class="brand-logo" aria-label="ROSH4N Home">
-        <span class="brand-dot"></span>
-        <span>ROSH4N</span>
+      <a href="#home" class="brand-link" aria-label="ROSH4N Homepage">
+        <img src="https://i.ibb.co/xqDNPPd6/channels4-profile.jpg" onerror="this.src='assets/profile.jpg'" alt="ROSH4N profile icon" class="brand-avatar" width="32" height="32">
+        <span class="brand-name">ROSH4N</span><span class="brand-tag">_</span>
       </a>
 
       <!-- Mobile Hamburger Button -->
@@ -45,7 +44,7 @@
         <span></span>
       </button>
 
-      <!-- Navigation Menu -->
+      <!-- Nav Links -->
       <nav>
         <ul class="nav-menu" id="nav-menu">
           <li><a href="#home" class="nav-link active">Home</a></li>
@@ -54,682 +53,470 @@
           <li><a href="#projects" class="nav-link">Projects</a></li>
           <li><a href="#journey" class="nav-link">Journey</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
-          <li class="nav-cta">
-            <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="GitHub Profile">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-                <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
-              </svg>
-              GitHub
-            </a>
-          </li>
         </ul>
       </nav>
     </div>
   </header>
 
   <!-- ==========================================
-       Main Content Container
+       Main Content
        ========================================== -->
   <main>
 
-    <!-- 1. HERO SECTION -->
+    <!-- HERO SECTION -->
     <section id="home" class="hero-section">
       <div class="container">
         <div class="hero-grid">
-          <!-- Left Text Content -->
-          <div class="hero-content reveal">
-            <div class="hero-status">
-              <span class="status-indicator"></span>
-              <span>Available for projects &amp; open source</span>
+          
+          <!-- Left: Hero Introduction -->
+          <div class="hero-text-block reveal">
+            <div class="hero-eyebrow">
+              <span>👋</span> HEY, I'M ROSH4N
             </div>
+            
+            <h1 class="hero-title">
+              I build things, break things, and learn how they work.
+            </h1>
 
-            <p class="hero-greeting">Hi, I'm</p>
-            <h1 class="hero-name">ROSH4N <span class="highlight">/ Roshan Rimal</span></h1>
+            <p class="hero-subtitle">
+              Software Developer • Builder • Cybersecurity Learner
+            </p>
 
-            <div class="hero-role-wrapper">
-              <span class="typed-text"></span><span class="cursor">&nbsp;</span>
-            </div>
-
-            <p class="hero-bio">
-              I’m a developer from <strong>Nepal</strong> who loves building web applications, experimenting with technology, exploring cybersecurity, and turning ideas into working projects.
+            <p class="hero-desc">
+              I'm a developer from Nepal interested in software development, cybersecurity, web development, AI, and building things that are actually useful.
             </p>
 
             <div class="hero-actions">
               <a href="#projects" class="btn btn-primary">
-                View My Projects
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                  <line x1="5" y1="12" x2="19" y2="12"></line>
-                  <polyline points="12 5 19 12 12 19"></polyline>
-                </svg>
+                VIEW MY WORK ↓
               </a>
               <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-                <svg viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
-                </svg>
-                GitHub Profile
+                GITHUB ↗
               </a>
             </div>
 
-            <div class="hero-quick-tags">
-              <span>Focus Areas:</span>
-              <span class="quick-tag">Full-Stack</span>
-              <span class="quick-tag">Cybersecurity</span>
-              <span class="quick-tag">AI Tools</span>
-              <span class="quick-tag">Open Source</span>
+            <!-- Personal Status Detail -->
+            <div class="hero-status-box">
+              <span class="status-dot"></span>
+              <span>currently: learning cybersecurity • building projects • experimenting with code</span>
             </div>
           </div>
 
-          <!-- Right Visual / Avatar Card -->
-          <div class="hero-visual reveal">
-            <div class="avatar-wrapper">
-              <div class="avatar-glow-ring"></div>
-              
-              <!-- Floating badges -->
-              <div class="floating-badge badge-top-right">
-                <span>🛡️ Cybersecurity</span>
-              </div>
-              <div class="floating-badge badge-bottom-left">
-                <span>🇳🇵 Nepal</span>
-              </div>
-
-              <div class="avatar-card">
-                <div class="avatar-image-container">
-                  <img src="assets/profile.jpg" onerror="this.src='assets/profile.svg'" alt="ROSH4N Developer Avatar" class="avatar-img" width="200" height="200">
-                </div>
-                <div class="avatar-card-info">
-                  <h3>ROSH4N</h3>
-                  <p>&lt;Software Developer /&gt;</p>
-                </div>
-                <div class="avatar-card-meta">
-                  <div class="meta-item">
-                    <span>📍</span> Nepal
-                  </div>
-                  <div class="meta-item">
-                    <span>⚡</span> Full-Stack
-                  </div>
-                  <div class="meta-item">
-                    <span>🛠️</span> Builder
-                  </div>
-                </div>
+          <!-- Right: Profile Image Card -->
+          <div class="hero-avatar-wrapper reveal">
+            <div class="hero-profile-card">
+              <img src="https://i.ibb.co/xqDNPPd6/channels4-profile.jpg" onerror="this.src='assets/profile.jpg'" alt="ROSH4N profile picture" class="hero-profile-img" width="300" height="300">
+              <div class="hero-card-name">ROSH4N</div>
+              <div class="hero-card-role">&lt;Software Developer /&gt;</div>
+              <div class="hero-card-meta">
+                <span>📍 Nepal</span>
+                <span>⚡ Full-Stack</span>
+                <span>🛡️ Security</span>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
 
-    <!-- 2. ABOUT SECTION -->
+    <!-- NOW SECTION -->
+    <aside class="now-section">
+      <div class="container">
+        <div class="now-box">
+          <div class="now-badge">NOW</div>
+          <div class="now-grid">
+            <div class="now-item">
+              <span class="now-label">Currently learning</span>
+              <span class="now-value">Cybersecurity &amp; Networking</span>
+            </div>
+            <div class="now-item">
+              <span class="now-label">Currently building</span>
+              <span class="now-value">Personal &amp; Web Projects</span>
+            </div>
+            <div class="now-item">
+              <span class="now-label">Currently exploring</span>
+              <span class="now-value">AI Tools + Full-Stack</span>
+            </div>
+            <div class="now-item">
+              <span class="now-label">Currently obsessed with</span>
+              <span class="now-value">Making things work cleanly</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- 01 — ABOUT ME -->
     <section id="about">
       <div class="container">
-        <div class="section-header reveal">
-          <div class="section-tag">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
-            Background
-          </div>
-          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
-          <p class="section-desc">Passionate about coding, security, and crafting real-world web experiences.</p>
-        </div>
+        <span class="section-label">01 — ABOUT ME</span>
+        <h2 class="section-heading">Background &amp; Philosophy</h2>
+        <p class="section-intro">A short overview of who I am, what I build, and what drives my curiosity.</p>
 
         <div class="about-grid">
-          <!-- Text Bio Card -->
-          <article class="glass-card about-text-card reveal">
-            <div>
-              <h3>Building software with curiosity and purpose</h3>
-              <p>
-                I am a software developer based in Nepal with an active focus on full-stack web development, cybersecurity fundamentals, artificial intelligence, and programming.
-              </p>
-              <p>
-                My journey revolves around taking technical concepts and turning them into functional tools. Whether exploring backend architectures with Node.js and PostgreSQL, structuring intuitive frontend interfaces, or experimenting with server automation and game mechanics, I enjoy learning through hands-on building.
-              </p>
-              <p>
-                My main goal is to build useful software, learn defensive and offensive cybersecurity concepts, create impactful projects, and continuously improve my engineering skills.
-              </p>
-            </div>
+          <div class="about-text reveal">
+            <p>
+              I'm Roshan, a software developer from Nepal who enjoys learning by building things. I'm interested in full-stack development, cybersecurity, AI, web technologies, and programming.
+            </p>
+            <p>
+              I spend my time experimenting with different backend frameworks, writing tools, automating servers, and diving into cybersecurity fundamentals. For me, the best way to understand systems is by taking them apart, seeing how each component communicates, and building real projects from scratch.
+            </p>
+            <p>
+              My focus is always on practical implementation—writing clean code, understanding foundational computer science concepts, and shipping functional software.
+            </p>
+          </div>
 
-            <div class="about-highlights">
-              <div class="highlight-box">
-                <div class="hl-label">Location</div>
-                <div class="hl-value">Nepal 🇳🇵</div>
+          <div class="about-aside reveal">
+            <!-- Simple Information Block -->
+            <div class="about-info-table">
+              <div class="info-row">
+                <span class="info-key">NAME</span>
+                <span class="info-val">ROSH4N / Roshan Rimal</span>
               </div>
-              <div class="highlight-box">
-                <div class="hl-label">Core Philosophy</div>
-                <div class="hl-value">Build &amp; Learn by Doing</div>
+              <div class="info-row">
+                <span class="info-key">LOCATION</span>
+                <span class="info-val">Nepal 🇳🇵</span>
               </div>
-              <div class="highlight-box">
-                <div class="hl-label">Primary Stack</div>
-                <div class="hl-value">JavaScript / TypeScript / React</div>
+              <div class="info-row">
+                <span class="info-key">FOCUS</span>
+                <span class="info-val">Software Development</span>
               </div>
-              <div class="highlight-box">
-                <div class="hl-label">Mission</div>
-                <div class="hl-value">Hack Club Stardance 🚀</div>
-              </div>
-            </div>
-          </article>
-
-          <!-- Interactive Developer Terminal -->
-          <div class="terminal-window reveal">
-            <div class="terminal-header">
-              <div class="terminal-controls">
-                <span class="terminal-dot red"></span>
-                <span class="terminal-dot yellow"></span>
-                <span class="terminal-dot green"></span>
-              </div>
-              <span class="terminal-title">rosh4n@dev: ~ (bash)</span>
-              <div></div>
-            </div>
-
-            <div class="terminal-body" id="terminal-content">
-              <div class="terminal-line">
-                <span class="prompt">rosh4n@dev:~$</span> <span class="term-cmd">whoami</span>
-              </div>
-              <div class="terminal-line term-output">
-                <span class="term-success">ROSH4N (Roshan Rimal)</span><br>
-                &gt; Software Developer<br>
-                &gt; Cybersecurity Learner<br>
-                &gt; Full-Stack Developer<br>
-                &gt; Builder from Nepal 🇳🇵
-              </div>
-
-              <div class="terminal-line" style="margin-top: 0.75rem;">
-                <span class="prompt">rosh4n@dev:~$</span> <span class="term-cmd">cat interests.txt</span>
-              </div>
-              <div class="terminal-line term-output">
-                [✓] Full-Stack &amp; Web Development<br>
-                [✓] Cybersecurity &amp; Network Defense<br>
-                [✓] Artificial Intelligence &amp; Automations<br>
-                [✓] Minecraft Server Plugins &amp; Scripting<br>
-                [✓] Open Source Collaboration
+              <div class="info-row">
+                <span class="info-key">INTERESTS</span>
+                <span class="info-val">Cybersecurity / AI / Web / Open Source</span>
               </div>
             </div>
 
-            <div class="terminal-interactive">
-              <span class="prompt" style="padding-left: 1.5rem;">rosh4n@dev:~$</span>
-              <input type="text" id="terminal-input" class="term-input" placeholder="type 'help', 'skills', or 'projects'..." autocomplete="off" spellcheck="false">
-            </div>
-            <div class="term-help-tip" style="padding-left: 1.5rem; padding-bottom: 0.75rem;">
-              Tip: Press Enter to execute command. Try typing <code>help</code>.
+            <!-- Terminal Info Box -->
+            <div class="about-terminal">
+              <div class="terminal-header-simple">
+                <span class="term-dot"></span>
+                <span class="term-dot"></span>
+                <span class="term-dot"></span>
+              </div>
+              <div class="term-line">
+                <span class="term-prompt">rosh4n@dev:~$</span> cat stack.txt
+              </div>
+              <div class="term-output-text">
+                [>] Building full-stack web applications<br>
+                [>] Studying cybersecurity &amp; network fundamentals<br>
+                [>] Tinkering with Minecraft servers &amp; game tooling
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 3. SKILLS SECTION -->
+    <!-- 02 — SKILLS -->
     <section id="skills">
       <div class="container">
-        <div class="section-header reveal">
-          <div class="section-tag">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
-            Toolbox
-          </div>
-          <h2 class="section-title">Skills &amp; <span class="gradient-text">Technologies</span></h2>
-          <p class="section-desc">Technologies, programming languages, and tools I work with and continuously study.</p>
-        </div>
+        <span class="section-label">02 — SKILLS</span>
+        <h2 class="section-heading">Technologies &amp; Tools</h2>
+        <p class="section-intro">Languages, frameworks, tools, and technical areas I actively work with and explore.</p>
 
-        <div class="skills-grid">
-          <!-- 1. Programming Languages -->
-          <div class="glass-card skill-category-card reveal">
-            <div class="category-header">
-              <div class="category-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-              </div>
-              <div>
-                <h3>Programming</h3>
-                <p>Core languages</p>
-              </div>
-            </div>
-            <ul class="skills-list">
-              <li class="skill-pill">
-                <span>⚡ C</span>
-              </li>
-              <li class="skill-pill">
-                <span>⚡ C++</span>
-              </li>
-              <li class="skill-pill">
-                <span>🐍 Python</span>
-              </li>
-              <li class="skill-pill">
-                <span>📜 JavaScript</span>
-              </li>
-              <li class="skill-pill">
-                <span>🔷 TypeScript</span>
-              </li>
+        <div class="skills-container reveal">
+          <!-- Languages -->
+          <div class="skill-category-row">
+            <div class="category-name">LANGUAGES</div>
+            <ul class="skills-tag-list">
+              <li class="skill-tag">C</li>
+              <li class="skill-tag">C++</li>
+              <li class="skill-tag">Python</li>
+              <li class="skill-tag">JavaScript</li>
+              <li class="skill-tag">TypeScript</li>
             </ul>
           </div>
 
-          <!-- 2. Web Development -->
-          <div class="glass-card skill-category-card reveal">
-            <div class="category-header">
-              <div class="category-icon blue">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-              </div>
-              <div>
-                <h3>Web Development</h3>
-                <p>Frontend &amp; backend</p>
-              </div>
-            </div>
-            <ul class="skills-list">
-              <li class="skill-pill">
-                <span>🌐 HTML5</span>
-              </li>
-              <li class="skill-pill">
-                <span>🎨 CSS3</span>
-              </li>
-              <li class="skill-pill">
-                <span>✨ JavaScript (ES6+)</span>
-              </li>
-              <li class="skill-pill">
-                <span>⚛️ React</span>
-              </li>
-              <li class="skill-pill">
-                <span>🟢 Node.js</span>
-              </li>
+          <!-- Web Development -->
+          <div class="skill-category-row">
+            <div class="category-name">WEB</div>
+            <ul class="skills-tag-list">
+              <li class="skill-tag">HTML</li>
+              <li class="skill-tag">CSS</li>
+              <li class="skill-tag">JavaScript</li>
+              <li class="skill-tag">React</li>
+              <li class="skill-tag">Node.js</li>
             </ul>
           </div>
 
-          <!-- 3. Tools & Workflow -->
-          <div class="glass-card skill-category-card reveal">
-            <div class="category-header">
-              <div class="category-icon purple">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
-              </div>
-              <div>
-                <h3>Tools &amp; Workflow</h3>
-                <p>Productivity &amp; DevOps</p>
-              </div>
-            </div>
-            <ul class="skills-list">
-              <li class="skill-pill">
-                <span>🐙 Git</span>
-              </li>
-              <li class="skill-pill">
-                <span>🐈 GitHub</span>
-              </li>
-              <li class="skill-pill">
-                <span>💻 VS Code</span>
-              </li>
-              <li class="skill-pill">
-                <span>▲ Vercel</span>
-              </li>
+          <!-- Tools & Platforms -->
+          <div class="skill-category-row">
+            <div class="category-name">TOOLS</div>
+            <ul class="skills-tag-list">
+              <li class="skill-tag">Git</li>
+              <li class="skill-tag">GitHub</li>
+              <li class="skill-tag">VS Code</li>
+              <li class="skill-tag">Vercel</li>
+              <li class="skill-tag">Supabase</li>
+              <li class="skill-tag">PostgreSQL</li>
             </ul>
           </div>
 
-          <!-- 4. Other Interests -->
-          <div class="glass-card skill-category-card reveal">
-            <div class="category-header">
-              <div class="category-icon pink">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-              </div>
-              <div>
-                <h3>Other Interests</h3>
-                <p>Exploration areas</p>
-              </div>
-            </div>
-            <ul class="skills-list">
-              <li class="skill-pill">
-                <span>🔐 Cybersecurity</span>
-              </li>
-              <li class="skill-pill">
-                <span>🤖 AI &amp; Automation</span>
-              </li>
-              <li class="skill-pill">
-                <span>🗄️ Databases (PostgreSQL/Supabase)</span>
-              </li>
-              <li class="skill-pill">
-                <span>🌍 Open Source</span>
-              </li>
+          <!-- Other Interests -->
+          <div class="skill-category-row">
+            <div class="category-name">INTERESTS</div>
+            <ul class="skills-tag-list">
+              <li class="skill-tag">Cybersecurity</li>
+              <li class="skill-tag">AI</li>
+              <li class="skill-tag">Open Source</li>
+              <li class="skill-tag">Minecraft</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 4. PROJECTS SECTION -->
+    <!-- 03 — THINGS I'VE BUILT -->
     <section id="projects">
       <div class="container">
-        <div class="section-header reveal">
-          <div class="section-tag">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-            Portfolio
-          </div>
-          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
-          <p class="section-desc">Real concepts, applications, and experiments I have created or am actively developing.</p>
-        </div>
+        <span class="section-label">03 — THINGS I'VE BUILT</span>
+        <h2 class="section-heading">Featured Projects</h2>
+        <p class="section-intro">A selection of concepts, applications, and experiments I'm developing.</p>
 
-        <div class="projects-grid">
-          <!-- Project 1: Godam360 -->
-          <article class="glass-card project-card reveal">
-            <div class="project-media">
-              <img src="assets/godam360.svg" alt="Godam360 E-commerce and logistics platform banner" loading="lazy" width="800" height="450">
-              <span class="project-badge">Concept &amp; Prototype</span>
+        <div class="projects-list">
+          
+          <!-- Project 01: Godam360 -->
+          <article class="project-item reveal">
+            <div class="project-banner-side">
+              <img src="assets/godam360.svg" alt="Godam360 e-commerce platform preview banner" loading="lazy" width="600" height="340">
             </div>
-            <div class="project-content">
-              <h3 class="project-title">Godam360</h3>
-              <p class="project-desc">
-                An e-commerce platform concept focused on making online shopping, inventory management, and logistics easier and more accessible for users and sellers in Nepal.
-              </p>
-              <div class="project-tags">
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">TypeScript</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">PostgreSQL</span>
-                <span class="tech-tag">Supabase</span>
+            <div class="project-details-side">
+              <div>
+                <div class="project-num">PROJECT 01</div>
+                <h3 class="project-title">Godam360</h3>
+                <p class="project-desc">
+                  An e-commerce platform concept focused on making online shopping, inventory management, and logistics easier and more accessible for users and sellers in Nepal.
+                </p>
+                <div class="project-tech-tags">
+                  <span class="tech-chip">React</span>
+                  <span class="tech-chip">TypeScript</span>
+                  <span class="tech-chip">Node.js</span>
+                  <span class="tech-chip">PostgreSQL</span>
+                  <span class="tech-chip">Supabase</span>
+                </div>
               </div>
-              <div class="project-footer">
-                <button class="btn btn-primary btn-sm" data-demo-target="godam360">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-                  View Project
-                </button>
-                <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="Godam360 GitHub">
-                  <svg viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
-                  </svg>
-                  GitHub
+              <div class="project-links">
+                <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  GitHub ↗
+                </a>
+                <!-- Replace href="#" with your real live demo URL when deployed -->
+                <a href="#" class="project-link-btn demo-placeholder-link">
+                  Live Demo ↗
                 </a>
               </div>
             </div>
           </article>
 
-          <!-- Project 2: GramMate -->
-          <article class="glass-card project-card reveal">
-            <div class="project-media">
-              <img src="assets/grammate.svg" alt="GramMate social video community platform banner" loading="lazy" width="800" height="450">
-              <span class="project-badge">Social Concept</span>
+          <!-- Project 02: GramMate -->
+          <article class="project-item reveal">
+            <div class="project-banner-side">
+              <img src="assets/grammate.svg" alt="GramMate social video platform preview banner" loading="lazy" width="600" height="340">
             </div>
-            <div class="project-content">
-              <h3 class="project-title">GramMate</h3>
-              <p class="project-desc">
-                A social media platform concept where users can create, discover, and share video content, connect with creators, and participate in interactive community feeds.
-              </p>
-              <div class="project-tags">
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">JavaScript</span>
-                <span class="tech-tag">Supabase</span>
-                <span class="tech-tag">Firebase</span>
+            <div class="project-details-side">
+              <div>
+                <div class="project-num">PROJECT 02</div>
+                <h3 class="project-title">GramMate</h3>
+                <p class="project-desc">
+                  A social media platform concept where users can create, share video content, discover creators, and interact in a real-time community feed.
+                </p>
+                <div class="project-tech-tags">
+                  <span class="tech-chip">React</span>
+                  <span class="tech-chip">JavaScript</span>
+                  <span class="tech-chip">Supabase</span>
+                  <span class="tech-chip">Firebase</span>
+                </div>
               </div>
-              <div class="project-footer">
-                <button class="btn btn-primary btn-sm" data-demo-target="grammate">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-                  View Project
-                </button>
-                <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="GramMate GitHub">
-                  <svg viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
-                  </svg>
-                  GitHub
+              <div class="project-links">
+                <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  GitHub ↗
+                </a>
+                <!-- Replace href="#" with your real live demo URL when deployed -->
+                <a href="#" class="project-link-btn demo-placeholder-link">
+                  Live Demo ↗
                 </a>
               </div>
             </div>
           </article>
 
-          <!-- Project 3: Minecraft / BedWars Projects -->
-          <article class="glass-card project-card reveal">
-            <div class="project-media">
-              <img src="assets/minecraft.svg" alt="Minecraft BedWars and plugin engineering banner" loading="lazy" width="800" height="450">
-              <span class="project-badge">Server &amp; Tooling</span>
+          <!-- Project 03: Minecraft / BedWars Experiments -->
+          <article class="project-item reveal">
+            <div class="project-banner-side">
+              <img src="assets/minecraft.svg" alt="Minecraft server automation and plugin development preview banner" loading="lazy" width="600" height="340">
             </div>
-            <div class="project-content">
-              <h3 class="project-title">Minecraft / BedWars Projects</h3>
-              <p class="project-desc">
-                Experimenting with Minecraft multiplayer servers, custom plugin development, automation scripts, and AI integrations to understand backend systems and game mechanics.
-              </p>
-              <div class="project-tags">
-                <span class="tech-tag">Java</span>
-                <span class="tech-tag">Spigot/Paper</span>
-                <span class="tech-tag">Automation</span>
-                <span class="tech-tag">Server Configs</span>
-                <span class="tech-tag">AI Experiments</span>
+            <div class="project-details-side">
+              <div>
+                <div class="project-num">PROJECT 03</div>
+                <h3 class="project-title">Minecraft / BedWars Experiments</h3>
+                <p class="project-desc">
+                  Experiments involving Minecraft multiplayer servers, custom plugin development, automation scripts, and AI-related gameplay integrations while learning software development.
+                </p>
+                <div class="project-tech-tags">
+                  <span class="tech-chip">Java</span>
+                  <span class="tech-chip">Python</span>
+                  <span class="tech-chip">Minecraft APIs</span>
+                  <span class="tech-chip">Automation</span>
+                </div>
               </div>
-              <div class="project-footer">
-                <button class="btn btn-primary btn-sm" data-demo-target="minecraft">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-                  View Details
-                </button>
-                <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="Minecraft Projects GitHub">
-                  <svg viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
-                  </svg>
-                  GitHub
+              <div class="project-links">
+                <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  GitHub ↗
+                </a>
+                <!-- Replace href="#" with your real repository or details URL -->
+                <a href="#" class="project-link-btn demo-placeholder-link">
+                  View Details →
                 </a>
               </div>
             </div>
           </article>
+
         </div>
       </div>
     </section>
 
-    <!-- 5. JOURNEY & BLOG SECTION -->
+    <!-- 04 — MY JOURNEY -->
     <section id="journey">
       <div class="container">
-        <div class="section-header reveal">
-          <div class="section-tag">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>
-            Evolution
-          </div>
-          <h2 class="section-title">My Journey &amp; <span class="gradient-text">Notes</span></h2>
-          <p class="section-desc">The continuous roadmap of milestones, current studies, and developer notes.</p>
-        </div>
+        <span class="section-label">04 — MY JOURNEY</span>
+        <h2 class="section-heading">Progression &amp; Notes</h2>
+        <p class="section-intro">A timeline of my learning pathway alongside notes from past experiments.</p>
 
-        <div class="journey-layout">
-          <!-- Left: Timeline -->
-          <div class="timeline reveal">
-            <!-- Step 1 -->
-            <div class="timeline-item">
-              <span class="timeline-node"></span>
-              <div class="glass-card timeline-content">
-                <div class="timeline-step">Step 01 • Foundation</div>
-                <h3 class="timeline-title">Learning Programming Fundamentals</h3>
-                <p class="timeline-desc">
-                  Started with C and C++, understanding memory management, data structures, algorithms, and logic building.
-                </p>
-              </div>
+        <div class="journey-grid">
+          <!-- Timeline Tree -->
+          <div class="timeline-tree reveal">
+            <div class="timeline-entry">
+              <span class="timeline-marker"></span>
+              <div class="timeline-step-label">START</div>
+              <h3 class="timeline-title">Programming Fundamentals</h3>
+              <p class="timeline-body">
+                Began learning core logic and memory structures with C and C++, building foundational problem-solving intuition.
+              </p>
             </div>
 
-            <!-- Step 2 -->
-            <div class="timeline-item">
-              <span class="timeline-node"></span>
-              <div class="glass-card timeline-content">
-                <div class="timeline-step">Step 02 • Frontend</div>
-                <h3 class="timeline-title">Web Development Exploration</h3>
-                <p class="timeline-desc">
-                  Learned HTML5 semantic architecture, responsive CSS layout methods (Flexbox &amp; Grid), and vanilla JavaScript DOM manipulation.
-                </p>
-              </div>
+            <div class="timeline-entry">
+              <span class="timeline-marker"></span>
+              <div class="timeline-step-label">STEP 02</div>
+              <h3 class="timeline-title">Web Development</h3>
+              <p class="timeline-body">
+                Mastered HTML5 semantic markup, CSS responsive layouts (Grid &amp; Flexbox), and vanilla JavaScript DOM manipulation.
+              </p>
             </div>
 
-            <!-- Step 3 -->
-            <div class="timeline-item">
-              <span class="timeline-node"></span>
-              <div class="glass-card timeline-content">
-                <div class="timeline-step">Step 03 • Integration</div>
-                <h3 class="timeline-title">Full-Stack Development</h3>
-                <p class="timeline-desc">
-                  Building reactive interfaces using React &amp; TypeScript, connecting to Node.js backend services and PostgreSQL/Supabase databases.
-                </p>
-              </div>
+            <div class="timeline-entry">
+              <span class="timeline-marker"></span>
+              <div class="timeline-step-label">STEP 03</div>
+              <h3 class="timeline-title">Full-Stack Development</h3>
+              <p class="timeline-body">
+                Building frontend interfaces with React and TypeScript, integrating with Node.js backends and PostgreSQL databases.
+              </p>
             </div>
 
-            <!-- Step 4 -->
-            <div class="timeline-item">
-              <span class="timeline-node"></span>
-              <div class="glass-card timeline-content">
-                <div class="timeline-step">Step 04 • Security</div>
-                <h3 class="timeline-title">Cybersecurity &amp; Network Defense</h3>
-                <p class="timeline-desc">
-                  Studying fundamental network protocols, Linux environments, web security vectors (OWASP Top 10), and secure coding practices.
-                </p>
-              </div>
+            <div class="timeline-entry">
+              <span class="timeline-marker"></span>
+              <div class="timeline-step-label">STEP 04</div>
+              <h3 class="timeline-title">Cybersecurity Exploration</h3>
+              <p class="timeline-body">
+                Studying fundamental network protocols, Linux terminal workflows, web security mechanisms, and defensive coding.
+              </p>
             </div>
 
-            <!-- Step 5 -->
-            <div class="timeline-item">
-              <span class="timeline-node"></span>
-              <div class="glass-card timeline-content">
-                <div class="timeline-step">Step 05 • Horizon</div>
-                <h3 class="timeline-title">AI &amp; Advanced Projects</h3>
-                <p class="timeline-desc">
-                  Experimenting with AI automation, game server tools, and creating impactful open-source software.
-                </p>
-              </div>
+            <div class="timeline-entry">
+              <span class="timeline-marker"></span>
+              <div class="timeline-step-label">NEXT</div>
+              <h3 class="timeline-title">AI &amp; Open Source Projects</h3>
+              <p class="timeline-body">
+                Building useful open-source tools, experimenting with AI integrations, and shipping complete software products.
+              </p>
             </div>
           </div>
 
-          <!-- Right: Currently Learning + Placeholder Notes -->
-          <div class="notes-column reveal">
-            <!-- Currently Learning Card -->
-            <div class="glass-card learning-card">
-              <h4>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                Currently Learning
-              </h4>
-              <ul>
-                <li>Network scanning, packet analysis &amp; cyber defense basics</li>
-                <li>Advanced TypeScript patterns &amp; type safety</li>
-                <li>Database optimization &amp; SQL indexing with PostgreSQL</li>
-                <li>Modern serverless deployment pipelines</li>
-              </ul>
+          <!-- Notes Column -->
+          <div class="notes-container reveal">
+            <div class="notes-header">NOTES FROM MY JOURNEY</div>
+
+            <div class="note-card" data-note-title="Learning HTML & CSS">
+              <span class="note-type">[Note / Placeholder]</span>
+              <h4 class="note-title">Learning HTML &amp; CSS</h4>
+              <p class="note-snippet">Foundational structure, semantic tags, and why layout basics matter before jumping into frameworks.</p>
             </div>
 
-            <!-- Placeholder Articles -->
-            <div class="glass-card blog-placeholder-card" data-blog-target="article-1">
-              <span class="blog-tag">[Article Note • Placeholder]</span>
-              <h4 class="blog-title">What I Learned Building My First Website</h4>
-              <div class="blog-meta">
-                <span>⏱️ 4 min read</span>
-                <span>• Web Foundations</span>
-              </div>
+            <div class="note-card" data-note-title="Getting Started With Cybersecurity">
+              <span class="note-type">[Note / Placeholder]</span>
+              <h4 class="note-title">Getting Started With Cybersecurity</h4>
+              <p class="note-snippet">Understanding networking fundamentals, Linux commands, and testing web vulnerabilities safely.</p>
             </div>
 
-            <div class="glass-card blog-placeholder-card" data-blog-target="article-2">
-              <span class="blog-tag">[Article Note • Placeholder]</span>
-              <h4 class="blog-title">My Journey Into Cybersecurity</h4>
-              <div class="blog-meta">
-                <span>⏱️ 6 min read</span>
-                <span>• Security &amp; Linux</span>
-              </div>
-            </div>
-
-            <div class="glass-card blog-placeholder-card" data-blog-target="article-3">
-              <span class="blog-tag">[Article Note • Placeholder]</span>
-              <h4 class="blog-title">Things I'm Learning About Full-Stack Development</h4>
-              <div class="blog-meta">
-                <span>⏱️ 5 min read</span>
-                <span>• React &amp; Databases</span>
-              </div>
+            <div class="note-card" data-note-title="Things I Learned Building Projects">
+              <span class="note-type">[Note / Placeholder]</span>
+              <h4 class="note-title">Things I Learned Building Projects</h4>
+              <p class="note-snippet">Why real building beats tutorial loops and how debugging errors teaches core software engineering.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 6. CONTACT SECTION -->
+    <!-- 05 — SAY HELLO -->
     <section id="contact">
       <div class="container">
-        <div class="section-header reveal">
-          <div class="section-tag">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            Get in Touch
-          </div>
-          <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
-          <p class="section-desc">Have a question, feedback, or want to collaborate on an open-source project? Drop a message!</p>
-        </div>
+        <span class="section-label">05 — SAY HELLO</span>
+        <h2 class="section-heading">Get in Touch</h2>
+        <p class="section-intro">Want to talk about code, projects, cybersecurity, Minecraft, or something completely random?</p>
 
         <div class="contact-grid">
-          <!-- Left: Contact Details -->
-          <div class="glass-card contact-info-card reveal">
-            <div>
-              <h3>Reach Out</h3>
-              <p>
-                I am always interested in discussing new development projects, learning resources in cybersecurity, and open-source contributions.
-              </p>
+          <!-- Left: Info -->
+          <div class="contact-info-block reveal">
+            <p>
+              Feel free to reach out if you want to collaborate on open-source projects, discuss web development or cybersecurity, or share ideas.
+            </p>
 
-              <div class="contact-details">
-                <div class="contact-item">
-                  <div class="contact-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                  </div>
-                  <div class="contact-text">
-                    <div class="contact-label">Email Placeholder</div>
-                    <div class="contact-val">rosh4n.contact@example.com</div>
-                  </div>
-                </div>
-
-                <div class="contact-item">
-                  <div class="contact-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                  </div>
-                  <div class="contact-text">
-                    <div class="contact-label">Location</div>
-                    <div class="contact-val">Nepal 🇳🇵</div>
-                  </div>
-                </div>
-
-                <div class="contact-item">
-                  <div class="contact-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-                  </div>
-                  <div class="contact-text">
-                    <div class="contact-label">GitHub</div>
-                    <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer" class="contact-val" style="color: var(--accent-green);">github.com/evilhere7</a>
-                  </div>
-                </div>
+            <div class="contact-channels">
+              <div class="contact-channel-item">
+                <span class="channel-label">GITHUB</span>
+                <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer" class="channel-val">
+                  github.com/evilhere7 ↗
+                </a>
               </div>
-            </div>
-
-            <div>
-              <div style="font-family: var(--font-mono); font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.75rem;">
-                SOCIAL CHANNELS (PLACEHOLDERS)
+              <div class="contact-channel-item">
+                <span class="channel-label">EMAIL</span>
+                <!-- Replace with your actual email address -->
+                <span class="channel-val">roshan.contact@example.com</span>
               </div>
-              <div class="social-links">
-                <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
-                  <svg viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
-                  </svg>
-                </a>
-                <a href="#contact" class="social-btn" aria-label="Discord Placeholder" onclick="alert('Discord handle: evilhere7 (placeholder)')">
-                  <svg viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
-                  </svg>
-                </a>
-                <a href="#contact" class="social-btn" aria-label="LinkedIn Placeholder" onclick="alert('LinkedIn profile placeholder. Add your profile link here!')">
-                  <svg viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.45 1.45 0 1 0 0-2.9 1.45 1.45 0 0 0 0 2.9m1.37 9.74V9.97H5.09v8.53h2.74z"/>
-                  </svg>
-                </a>
+              <div class="contact-channel-item">
+                <span class="channel-label">LOCATION</span>
+                <span style="color: var(--text-primary);">Nepal 🇳🇵</span>
               </div>
             </div>
           </div>
 
           <!-- Right: Contact Form -->
-          <div class="glass-card contact-form-card reveal">
-            <h3>Send a Message</h3>
-
-            <form id="contact-form" class="contact-form" novalidate>
-              <div class="form-group">
-                <label for="contact-name" class="form-label">Your Name</label>
-                <input type="text" id="contact-name" class="form-control" placeholder="e.g. Alex" required>
-                <span class="form-feedback">Please enter your name.</span>
+          <div class="contact-form-box reveal">
+            <form id="contact-form" novalidate>
+              <div class="form-field">
+                <label for="contact-name" class="field-label">Name</label>
+                <input type="text" id="contact-name" class="field-input" placeholder="Your name" required>
+                <div class="field-error">Please enter your name.</div>
               </div>
 
-              <div class="form-group">
-                <label for="contact-email" class="form-label">Your Email</label>
-                <input type="email" id="contact-email" class="form-control" placeholder="e.g. alex@example.com" required>
-                <span class="form-feedback">Please enter a valid email address.</span>
+              <div class="form-field">
+                <label for="contact-email" class="field-label">Email</label>
+                <input type="email" id="contact-email" class="field-input" placeholder="your.email@example.com" required>
+                <div class="field-error">Please enter a valid email address.</div>
               </div>
 
-              <div class="form-group">
-                <label for="contact-message" class="form-label">Message</label>
-                <textarea id="contact-message" class="form-control" placeholder="Type your message here..." rows="4" required></textarea>
-                <span class="form-feedback">Please write a message (at least 10 characters).</span>
+              <div class="form-field">
+                <label for="contact-message" class="field-label">Message</label>
+                <textarea id="contact-message" class="field-input" placeholder="What's on your mind?" rows="4" required></textarea>
+                <div class="field-error">Please write a message (at least 10 characters).</div>
               </div>
 
-              <div class="form-demo-notice">
-                ℹ️ <strong>Demo Form</strong>: Connect a service like Formspree or EmailJS to receive live email submissions directly from this form.
-              </div>
+              <p class="form-disclaimer">
+                ℹ️ <em>This form is currently a demo. Connect a backend or Formspree to receive live email submissions.</em>
+              </p>
 
               <button type="submit" class="btn btn-primary" id="btn-submit">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-                Send Message
+                SEND MESSAGE →
               </button>
             </form>
           </div>
@@ -743,64 +530,32 @@
        Footer
        ========================================== -->
   <footer class="site-footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <h4>ROSH4N</h4>
-          <p>Built for Hack Club Stardance Mission • Made with curiosity &amp; code.</p>
-        </div>
-
-        <ul class="footer-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#journey">Journey</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-        </ul>
+    <div class="container footer-inner">
+      <div>
+        <strong>ROSH4N</strong> • Built with HTML, CSS &amp; JavaScript. • Hack Club Stardance
       </div>
 
-      <div class="footer-bottom">
-        <p>&copy; <span id="current-year">2026</span> ROSH4N. Built with HTML, CSS &amp; JavaScript.</p>
-        
-        <a href="#home" class="back-to-top" aria-label="Scroll back to top">
-          Back to Top ↑
-        </a>
+      <div class="footer-nav">
+        <a href="https://github.com/evilhere7" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <span>•</span>
+        <span>&copy; <span id="current-year">2026</span> ROSH4N</span>
+        <span>•</span>
+        <a href="#home" class="back-to-top-btn" aria-label="Back to top">↑ back to top</a>
       </div>
     </div>
   </footer>
 
   <!-- Floating Back to Top Button -->
-  <a href="#home" id="back-to-top" class="floating-back-to-top" aria-label="Back to Top">
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-      <polyline points="18 15 12 9 6 15"></polyline>
-    </svg>
+  <a href="#home" id="floating-top" class="floating-top" aria-label="Back to top">
+    ↑
   </a>
 
-  <!-- Custom Info / Demo Modal -->
-  <div class="modal-overlay" id="info-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-    <div class="modal-box">
-      <button class="modal-close" id="modal-close" aria-label="Close modal">✕</button>
-      <h3 id="modal-title" style="margin-bottom: 1rem; color: var(--text-primary);">Details</h3>
-      <div id="modal-content"></div>
-    </div>
-  </div>
-
-  <!-- Toast Notification -->
-  <aside class="toast-notification" id="toast" role="status" aria-live="polite">
-    <div class="toast-icon">
-      <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
-      </svg>
-    </div>
-    <div class="toast-content">
-      <h5 class="toast-title">Message Received</h5>
-      <p class="toast-desc">Thanks! The form is currently a demo.</p>
-    </div>
+  <!-- Notification Toast -->
+  <aside class="clean-toast" id="toast" role="status" aria-live="polite">
+    <span id="toast-message">This form is currently a demo. Connect a backend to receive messages.</span>
   </aside>
 
-  <!-- Vanilla JavaScript -->
+  <!-- Script -->
   <script src="script.js"></script>
 </body>
 </html>

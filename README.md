@@ -1,255 +1,85 @@
-<div align="center">
+# ROSH4N — Personal Developer Portfolio
 
-<table>
-<tr>
-
-<td align="left" width="70%">
-
-<h1>Hi 👋, I'm ROSH4N</h1>
-
-<h3>Software Developer from Nepal 🇳🇵</h3>
-
-<p>
-  <a href="https://github.com/evilhere7">
-    <img src="https://komarev.com/ghpvc/?username=evilhere7&label=PROFILE%20VIEWS&color=0e75b6&style=for-the-badge" alt="Profile Views" />
-  </a>
-</p>
-
-</td>
-
-<td align="right" width="30%">
-
-<img src="https://i.ibb.co/xqDNPPd6/channels4-profile.jpg" width="200" height="200" alt="ROSH4N Logo" />
-
-</td>
-
-</tr>
-</table>
-
-</div>
+A clean, responsive, and developer-focused personal portfolio website built with semantic **HTML5**, modern **CSS3**, and **Vanilla JavaScript**. Created for the **Hack Club Stardance Personal Website** mission.
 
 ---
 
-## 👨‍💻 About Me
+## 📁 File Structure
 
-* 💻 Software Developer
-* 🚀 Full-Stack Developer
-* 🔐 Interested in Cybersecurity
-* 🌱 Always learning and experimenting with new technologies
-* 🛠️ I enjoy building real-world applications and open-source projects
-* 🇳🇵 From Nepal
-
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-
-<img
-src="https://github-readme-stats.vercel.app/api?username=evilhere7&show_icons=true&theme=dracula&hide_border=false"
-height="170"
-alt="GitHub Stats"
-/>
-
-<img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=evilhere7&layout=compact&langs_count=8&theme=dracula&hide_border=false"
-height="170"
-alt="Top Languages"
-/>
-
-</div>
+```text
+evilhere7/
+├── index.html            # Main markup (semantic HTML5, SEO metadata, accessible layout)
+├── style.css             # Stylesheet (dark charcoal theme, green accent, responsive rules)
+├── script.js             # Vanilla JavaScript (mobile menu, scrollspy, form validation)
+├── README.md             # Project documentation & deployment guide
+└── assets/               # Visual assets
+    ├── profile.jpg       # Profile picture (Minecraft-style avatar)
+    ├── godam360.svg      # Project banner for Godam360
+    ├── grammate.svg      # Project banner for GramMate
+    └── minecraft.svg     # Project banner for Minecraft / BedWars experiments
+```
 
 ---
 
-## 🔥 GitHub Streak
+## 🚀 How to Run Locally
 
-<div align="center">
+No installations or build tools required.
 
-<img
-src="https://streak-stats.demolab.com?user=evilhere7&theme=dracula&hide_border=false"
-height="180"
-alt="GitHub Streak"
-/>
+### Method 1: Direct File Open (Easiest)
+1. Double-click `index.html` in your file explorer.
+2. It will open and run in your web browser immediately.
 
-</div>
-
----
-
-## 📈 GitHub Activity
-
-<div align="center">
-
-<img
-src="https://github-readme-activity-graph.vercel.app/graph?username=evilhere7&theme=dracula&hide_border=false"
-alt="GitHub Activity Graph"
-/>
-
-</div>
+### Method 2: Python Local Server
+Run this command in the terminal inside this folder:
+```bash
+python -m http.server 3000
+```
+Then visit `http://localhost:3000` in your browser.
 
 ---
 
-## 🛠️ Languages & Technologies
+## 🛠️ Where to Change Personal Information
 
-<div align="left">
+All personal details are organized and commented inside `index.html`:
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="TypeScript" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="C" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" />
-
-</div>
+1. **Name & Titles**: Look inside the `<header>` and `<section id="home">`.
+2. **About Me**: Edit the paragraphs under `<section id="about">`.
+3. **NOW Section**: Update your current focus items under `<aside class="now-section">`.
+4. **Skills**: Modify or add tech tags in `<section id="skills">`.
+5. **Projects**: Edit descriptions and replace `href="#"` with your actual live project URLs in `<section id="projects">`.
+6. **Social & GitHub Links**: Search for `https://github.com/evilhere7` and replace with your profile links.
+7. **Contact Email**: Search for `roshan.contact@example.com` under `<section id="contact">`.
 
 ---
 
-## 🌐 Frontend
+## 🖼️ Where to Replace the Profile Image
 
-<div align="left">
+Your main profile image is linked in `index.html`:
+- Primary URL: `https://i.ibb.co/xqDNPPd6/channels4-profile.jpg`
+- Local fallback: `assets/profile.jpg`
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="40" alt="Tailwind CSS" />
-
-</div>
+To replace it with a local photo:
+1. Save your image as `profile.jpg` inside the `assets/` folder.
+2. In `index.html`, change `src="https://i.ibb.co/xqDNPPd6/channels4-profile.jpg"` to `src="assets/profile.jpg"`.
 
 ---
 
-## ⚙️ Backend & Databases
+## 🌐 How to Deploy to GitHub Pages
 
-<div align="left">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="Node.js" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" alt="Express" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="MySQL" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="40" alt="Redis" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="40" alt="Firebase" />
-
-</div>
+1. Commit and push this repository to GitHub:
+   ```bash
+   git add .
+   git commit -m "Build personal website for Stardance mission"
+   git push origin main
+   ```
+2. Go to your repository on [GitHub](https://github.com/evilhere7).
+3. Click **Settings** ➔ **Pages** (in the left sidebar).
+4. Under **Source / Branch**, select `main` (or `master`) and folder `/(root)`.
+5. Click **Save**. Your site will be live at `https://evilhere7.github.io/evilhere7/` (or your GitHub Pages URL).
 
 ---
 
-## ☁️ Cloud & DevOps
+## 📜 License
 
-<div align="left">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="GitHub" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloudflare/cloudflare-original.svg" height="40" alt="Cloudflare" />
-
-</div>
-
----
-
-## 🚀 Featured Projects
-
-### 🛒 Godam360
-
-A logistics-focused e-commerce platform designed for the Nepalese market.
-
-**Stack:** React · TypeScript · Node.js · PostgreSQL · Supabase · Redis
-
----
-
-### 🎥 GramMate
-
-A social media platform focused on video content, creators, profiles, wallets, and monetization.
-
-**Stack:** React · TypeScript · Supabase · PostgreSQL · Firebase
-
----
-
-### 🎮 Minecraft Projects
-
-Building and experimenting with Minecraft servers, plugins, and gaming infrastructure.
-
----
-
-## 🌐 Connect With Me
-
-<div align="center">
-
-<a href="https://www.youtube.com/@evilmc9384">
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="35" alt="YouTube" />
-</a>
-
-<a href="https://www.instagram.com/roshan_rimal7/">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="35" alt="Instagram" />
-</a>
-
-<a href="https://www.linkedin.com/in/roshan-rimal-154b7537a/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35" alt="LinkedIn" />
-</a>
-
-<a href="https://www.facebook.com/roshan.rimal.632126">
-<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="35" alt="Facebook" />
-</a>
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img
-src="https://raw.githubusercontent.com/evilhere7/evilhere7/output/snake.svg"
-alt="GitHub Contribution Snake"
-/>
-
-</div>
-
----
-
-## ⚡ Fun Fact
-
-> I don't just write code — I build, break, learn, and build again. 🚀
-
----
-
-<div align="center">
-
-### ⭐ Thanks for visiting my profile!
-
-**Let's build something amazing together.**
-
-</div>
+Created with ❤️ by **ROSH4N (Roshan Rimal)** for the **Hack Club Stardance Mission**.  
+Open-source under the [MIT License](https://opensource.org/licenses/MIT).
